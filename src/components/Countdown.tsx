@@ -37,6 +37,7 @@ export function Countdown() {
             // Finalizou
             setHasFinished(true);
             setIsActive(false);
+            startNewChallenge();
         }
     }, [isActive, time]);
 
